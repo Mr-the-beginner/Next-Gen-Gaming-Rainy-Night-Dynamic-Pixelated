@@ -1,0 +1,76 @@
+{
+"manifest_version": 2,
+"version": "1.2",
+
+"name": "Next Gen Gaming Rainy Night",
+
+"description": "Optimized dynamic theme",
+
+"author": "Mgnefire",
+
+"theme": {"images": {"additional_backgrounds": ["images/background.gif"]},
+
+"properties": {"additional_backgrounds_alignment": ["right top"],
+
+"additional_backgrounds_tiling": ["repeat"]},
+
+"colors": {
+
+//---------------------------frame =
+
+"frame": "rgba(15, 20, 25, 1)",
+
+//---------------------------tab =
+
+//"tab_line": "rgb(231, 1, 136)",
+"tab_background_text": "rgba(72, 194, 255, 1)",
+"tab_line": "rgba(0, 0, 0, 0)", 
+"tab_loading": "rgb(231, 1, 136)",
+
+//---------------------------toolbar =
+
+//"toolbar_bottom_separator": "rgb(4, 4, 16)",
+//"toolbar_field_border_focus": "rgb(231, 1, 136)",
+//"toolbar_field_highlight_text": "rgb(242, 205, 246)",
+//"toolbar_field_highlight": "rgb(231, 1, 136)",
+//"toolbar_field_text_focus": "rgb(242, 205, 246)",
+//"toolbar_field_focus": "rgb(4, 4, 16)",
+"toolbar_field_border": "rgba(142, 74, 201, 0.25)",
+"toolbar_top_separator": "rgb(231, 1, 136)",
+"toolbar_vertical_separator": "rgb(231, 1, 136)",
+"toolbar": "rgba(15, 20, 25, 0.8)",
+"toolbar_field": "rgba(7, 13, 20, 1)",
+"toolbar_field_text": "rgba(194, 217, 76, 1)",
+
+//---------------------------popup =
+
+//"popup": "rgb(4, 4, 16)",
+//"popup_text": "rgb(142, 74, 201)",
+"popup_border": "rgb(231, 1, 136)",
+"popup_highlight_text": "rgb(231, 1, 136)",
+"popup_highlight": "rgba(231, 1, 136, 0.2)",
+
+//---------------------------ntp =
+
+"ntp_background": "rgb(4, 4, 16)",
+"ntp_text": "rgb(242, 205, 246)",
+"ntp_card_background": "rgba(35, 35, 44)",
+
+//---------------------------sidebar =
+
+"sidebar_border": "rgb(231, 1, 136)",
+"sidebar_highlight_text": "rgb(231, 1, 136)",
+"sidebar_highlight": "rgba(231, 1, 136, 0.2)",
+"sidebar_text": "rgb(142, 74, 201)",
+"sidebar": "rgb(4, 4, 16)",
+
+//---------------------------button =
+
+"button_background_active": "rgba(142, 74, 201, 0.5)",
+"button_background_hover": "rgba(142, 74, 201, 0.25)",
+
+//---------------------------bookmark =
+
+"bookmark_text": "rgba(255, 119, 43, 1)"
+
+}}}
